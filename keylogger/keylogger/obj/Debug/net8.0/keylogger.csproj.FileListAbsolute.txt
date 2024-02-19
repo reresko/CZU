@@ -1,0 +1,15 @@
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\bin\Debug\net8.0\keylogger.exe
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\bin\Debug\net8.0\keylogger.deps.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\bin\Debug\net8.0\keylogger.runtimeconfig.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\bin\Debug\net8.0\keylogger.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\bin\Debug\net8.0\keylogger.pdb
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\obj\Debug\net8.0\keylogger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\obj\Debug\net8.0\keylogger.AssemblyInfoInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\obj\Debug\net8.0\keylogger.AssemblyInfo.cs
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\obj\Debug\net8.0\keylogger.csproj.CoreCompileInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\obj\Debug\net8.0\keylogger.sourcelink.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\obj\Debug\net8.0\keylogger.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\obj\Debug\net8.0\refint\keylogger.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\obj\Debug\net8.0\keylogger.pdb
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\obj\Debug\net8.0\keylogger.genruntimeconfig.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keylogger\keylogger\obj\Debug\net8.0\ref\keylogger.dll
