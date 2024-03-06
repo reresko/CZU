@@ -1,0 +1,15 @@
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\obj\Debug\net8.0\cviko2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\obj\Debug\net8.0\cviko2.AssemblyInfoInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\obj\Debug\net8.0\cviko2.AssemblyInfo.cs
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\obj\Debug\net8.0\cviko2.csproj.CoreCompileInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\obj\Debug\net8.0\cviko2.sourcelink.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\bin\Debug\net8.0\cviko2.exe
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\bin\Debug\net8.0\cviko2.deps.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\bin\Debug\net8.0\cviko2.runtimeconfig.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\bin\Debug\net8.0\cviko2.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\bin\Debug\net8.0\cviko2.pdb
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\obj\Debug\net8.0\cviko2.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\obj\Debug\net8.0\refint\cviko2.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\obj\Debug\net8.0\cviko2.pdb
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\obj\Debug\net8.0\cviko2.genruntimeconfig.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\cviko2\cviko2\obj\Debug\net8.0\ref\cviko2.dll

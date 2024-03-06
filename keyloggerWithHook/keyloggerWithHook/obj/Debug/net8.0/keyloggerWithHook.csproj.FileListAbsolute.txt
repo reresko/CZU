@@ -1,0 +1,6 @@
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keyloggerWithHook\keyloggerWithHook\obj\Debug\net8.0\keyloggerWithHook.csproj.ResolveComReference.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keyloggerWithHook\keyloggerWithHook\obj\Debug\net8.0\keyloggerWithHook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keyloggerWithHook\keyloggerWithHook\obj\Debug\net8.0\keyloggerWithHook.AssemblyInfoInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keyloggerWithHook\keyloggerWithHook\obj\Debug\net8.0\keyloggerWithHook.AssemblyInfo.cs
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keyloggerWithHook\keyloggerWithHook\obj\Debug\net8.0\keyloggerWithHook.csproj.CoreCompileInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\keyloggerWithHook\keyloggerWithHook\obj\Debug\net8.0\keyloggerWithHook.sourcelink.json
