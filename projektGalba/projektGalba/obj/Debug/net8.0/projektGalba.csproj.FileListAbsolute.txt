@@ -1,0 +1,15 @@
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\bin\Debug\net8.0\projektGalba.exe
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\bin\Debug\net8.0\projektGalba.deps.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\bin\Debug\net8.0\projektGalba.runtimeconfig.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\bin\Debug\net8.0\projektGalba.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\bin\Debug\net8.0\projektGalba.pdb
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\projektGalba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\projektGalba.AssemblyInfoInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\projektGalba.AssemblyInfo.cs
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\projektGalba.csproj.CoreCompileInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\projektGalba.sourcelink.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\projektGalba.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\refint\projektGalba.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\projektGalba.pdb
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\projektGalba.genruntimeconfig.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\ref\projektGalba.dll

@@ -1,0 +1,15 @@
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\bin\Debug\net8.0\bankovniSystemVeryLite.exe
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\bin\Debug\net8.0\bankovniSystemVeryLite.deps.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\bin\Debug\net8.0\bankovniSystemVeryLite.runtimeconfig.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\bin\Debug\net8.0\bankovniSystemVeryLite.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\bin\Debug\net8.0\bankovniSystemVeryLite.pdb
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\bankovniSystemVeryLite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\bankovniSystemVeryLite.AssemblyInfoInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\bankovniSystemVeryLite.AssemblyInfo.cs
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\bankovniSystemVeryLite.csproj.CoreCompileInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\bankovniSystemVeryLite.sourcelink.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\bankovniSystemVeryLite.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\refint\bankovniSystemVeryLite.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\bankovniSystemVeryLite.pdb
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\bankovniSystemVeryLite.genruntimeconfig.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\projektGalba\projektGalba\obj\Debug\net8.0\ref\bankovniSystemVeryLite.dll
