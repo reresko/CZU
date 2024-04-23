@@ -1,5 +1,4 @@
 ﻿
-
 namespace bankovniSystemVeryLite
 {
     internal class Account
@@ -10,13 +9,10 @@ namespace bankovniSystemVeryLite
 
         public static TransactionHistory TransactionHistory = new TransactionHistory();
 
-        public float GetBalance()
-        {
-            return balance;
-        }
         public void Login()
         {
             bool loggedIn = false;
+
             while (!loggedIn)
             {
                 Console.Write("\nZadejte uživatelské jméno: ");
@@ -27,23 +23,96 @@ namespace bankovniSystemVeryLite
                 if (usernameInput == username && passwordInput == password)
                 {
                     Console.Clear();
-                    Console.WriteLine("Úspěšně přihlášen.\n");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Úspěšně přihlášen.");
+                    Console.ForegroundColor = ConsoleColor.White;
                     loggedIn = true;
-                    Console.Write("Aktuální zůstatek: ");
-                    Console.WriteLine(balance + " Kč");
+                    VypisZustatku();
                 }
                 else
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("chybně zadané uživatelské jméno nebo heslo. zkuste znovu: ");
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Chybně zadané uživatelské jméno nebo heslo. Zkuste to znovu.");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
             }
 
         }
+
+        public void SaveUsername()
+        {
+            File.WriteAllText("username.txt", username.ToString());
+        }
+
+        public void LoadUsername()
+        {
+            if (File.Exists("username.txt"))
+            {
+                string loadedUsername = File.ReadAllText("username.txt");
+                username = loadedUsername;
+            }
+        }
+
+        public void SavePassword()
+        {
+            File.WriteAllText("password.txt", password.ToString());
+        }
+
+        public void LoadPassword()
+        {
+            if (File.Exists("password.txt"))
+            {
+                string loadedPassword = File.ReadAllText("password.txt");
+                password = loadedPassword;
+            }
+        }
+
+        public void ChangeUsername()
+        {
+            Console.Write("\nZadejte nové uživatelské jméno: ");
+            string newUsername = Console.ReadLine();
+            username = newUsername;
+            SaveUsername();
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Uživatelské jméno bylo úspěšně změněno na: " + username);
+            Console.ForegroundColor = ConsoleColor.White;
+            VypisZustatku();
+        }
+
+        public void ChangePassword()
+        {
+            Console.Write("\nZadejte staré heslo: ");
+            string oldPassword = Console.ReadLine();
+
+            if (oldPassword == password)
+            {
+                Console.Write("\nZadejte nové heslo: ");
+                string newPassword = Console.ReadLine();
+                password = newPassword;
+                SavePassword();
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Heslo bylo úspěšně změněno.");
+                Console.ForegroundColor = ConsoleColor.White;
+                VypisZustatku();
+            }
+            else
+            {
+                Console.Clear();
+                Console.ForegroundColor= ConsoleColor.Red;
+                Console.WriteLine("Špatné staré heslo. Změna hesla selhala.");
+                Console.ForegroundColor = ConsoleColor.White;
+                VypisZustatku();
+            }
+        }
+        
         public void SaveBalance()
         {
             File.WriteAllText("balance.txt", balance.ToString());
         }
+
         public void LoadBalance()
         {
             if (File.Exists("balance.txt"))
@@ -56,88 +125,127 @@ namespace bankovniSystemVeryLite
                 else
                 {
                     Console.WriteLine();
-                    Console.WriteLine("Failed to parse balance from file.");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Nepodařilo se zpracovat zůstatek ze souboru.");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
             }
         }
 
-        public void Deposit()
+        public void VypisZustatku()
         {
+            Console.Write("\nAktuální zůstatek: ");
+            Console.WriteLine(balance + " Kč");
+        }
 
+        public void Vklad()
+        {
             float castka;
-            bool floatBool = false;
-            while (!floatBool)
+            bool jeCIslo = false;
+            while (!jeCIslo)
             {
                 
-                Console.Write("Jakou částku chcete vložit: ");
+                Console.Write("Pro ukončení vkladu a návrat do Menu stiskněte '0'\nZadejte částku, kterou chcete vložit: ");
                 if (!float.TryParse(Console.ReadLine(), out castka))
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("Chybně zadaná hodnota.\n");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\nChybně zadaná hodnota.\n");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
                 else
                 {
-                    if (castka > 0)
+                    castka = (float)Math.Round(castka, 2);
+                    if (castka > 100000)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("\nPro vložení částky větší než 100 000 zajděte do nejbližší pobočky Vaší banky.\n");
+                        Console.ForegroundColor = ConsoleColor.White;
+                    }
+                    else if (castka > 0)
                     {
                         Console.Clear();
                         balance = balance + castka;
-                        TransactionHistory.AddTransaction(TransactionType.Deposit, castka);
+                        TransactionHistory.AddTransaction(TransactionType.Vklad, castka);
                         SaveBalance();
-                        Console.WriteLine("Částka byla úspěšně vložena.\n");
-                        Console.Write("Aktuální zůstatek: ");
-                        Console.WriteLine(balance + " Kč");
-                        floatBool = true;
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.WriteLine("Částka byla úspěšně vložena.");
+                        Console.ForegroundColor = ConsoleColor.White;
+                        VypisZustatku();
+                        jeCIslo = true;
+                    }
+                    else if (castka == 0)
+                    {
+                        Console.Clear();
+                        VypisZustatku();
+                        jeCIslo = true;
                     }
                     else
                     {
-                        Console.WriteLine();
-                        Console.WriteLine("Zadejte kladné číslo.\n");
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("\nZadejte kladné číslo.\n");
+                        Console.ForegroundColor = ConsoleColor.White;
                     }
+                    
                 }
             }
 
         }
 
-        public void Withdraw()
+        public void Vyber()
         {
             float castka;
-            bool floatBool = false;
-            while (!floatBool)
+            bool jeCIslo = false;
+            while (!jeCIslo)
             {
-                Console.Write("Jakou částku chcete vybrat: ");
+                Console.Write("Pro ukončení stiskněte '0'\nJakou částku chcete vybrat: ");
                 if (!float.TryParse(Console.ReadLine(), out castka))
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("Chybně zadaná hodnota.\n");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\nChybně zadaná hodnota.\n");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
                 else
                 {
-                    
+                    castka = (float)Math.Round(castka, 2);
                     if (castka > balance)
                     {
-                        Console.WriteLine();
-                        Console.WriteLine("Nedostatek prostředků.\n");
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("\nNedostatek prostředků.\n");
+                        Console.ForegroundColor = ConsoleColor.White;
                     }
                     else
                     {
-                        if (castka > 0)
+                        if (castka > 100000)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("\nPro výběr částky větší než 100 000 zajděte do nejbližší pobočky Vaší banky.\n");
+                            Console.ForegroundColor = ConsoleColor.White;
+                        }
+                        else if (castka > 0 && castka <= 100000)
                         {
                             Console.Clear();
                             balance = balance - castka;
-                            TransactionHistory.AddTransaction(TransactionType.Withdraw, castka);
+                            TransactionHistory.AddTransaction(TransactionType.Vyber, castka);
                             SaveBalance();
-                            Console.WriteLine("Částka byla úspěšně vybrána\n");
-                            Console.Write("Aktuální zůstatek: ");
-                            Console.WriteLine(balance + " Kč");
-                            floatBool = true;
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.WriteLine("Částka byla úspěšně vybrána");
+                            Console.ForegroundColor = ConsoleColor.White;
+                            VypisZustatku();
+                            jeCIslo = true;
+                        }
+                        else if (castka == 0)
+                        {
+                            Console.Clear();
+                            VypisZustatku();
+                            jeCIslo = true;
                         }
                         else
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("Zadejte kladné číslo.\n");
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("\nZadejte kladné číslo.\n");
+                            Console.ForegroundColor = ConsoleColor.White;
                         }
                     }
-
                 }
             }
         }

@@ -1,5 +1,4 @@
 ﻿
-
 namespace bankovniSystemVeryLite
 {
     internal class UI
@@ -10,12 +9,14 @@ namespace bankovniSystemVeryLite
             Account Account = new Account();
 
             Account.LoadBalance();
+            Account.LoadUsername();
+            Account.LoadPassword();
+            
             Account.Login();
+            bool prihlasen = true;
 
-
-            while (true)
+            while (prihlasen)
             {
-                Console.WriteLine();
                 UI.Menu();
                 Console.Write("Zadej požadavek: ");
                 string x = Console.ReadLine();
@@ -24,15 +25,27 @@ namespace bankovniSystemVeryLite
                 switch (x)
                 {
                     case "1":
-                        Account.Deposit();
+                        Account.Vklad();
                         break;
 
                     case "2":
-                        Account.Withdraw();
+                        Account.Vyber();
                         break;
 
                     case "3":
                         Account.TransactionHistory.PrintTransactionHistory();
+                        break;
+
+                    case "4":
+                        Account.ChangeUsername();
+                        break;
+
+                    case "5":
+                        Account.ChangePassword();
+                        break;
+
+                    case "6":
+                        prihlasen = false;
                         break;
 
                     case "0":
@@ -40,20 +53,33 @@ namespace bankovniSystemVeryLite
 
                     default:
                         Console.Clear();
-                        Console.WriteLine("Invalid input, try again.\n");
-                        //Console.WriteLine(); tady dodelat at to printi zustatek po tom co dam spatnej input
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Neplatný vstup, zkuste to znovu.");
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Account.VypisZustatku();
                         break;
+                }
+
+                if (!prihlasen)
+                {
+                    Console.Clear();
+                    Account.Login();
+                    prihlasen = true;
                 }
             }                        
         }
         public void Menu()
         {
-            Console.WriteLine("---------- MENU ----------\n");
-            Console.WriteLine("1................Deposit");
-            Console.WriteLine("2................Withdraw");
-            Console.WriteLine("3................Transaction History");
-            Console.WriteLine("0................Shutdown");
+            Console.WriteLine("\n---------- MENU ----------\n");
+            Console.WriteLine("1................Vklad");
+            Console.WriteLine("2................Výběr");
+            Console.WriteLine("3................Historie transakcí");
+            Console.WriteLine("4................Změnit uživatelské jméno");
+            Console.WriteLine("5................Změnit heslo");
+            Console.WriteLine("6................Odhlásit se");
+            Console.WriteLine("0................Vypnout");
             Console.WriteLine();
         }
+
     }
 }

@@ -17,9 +17,9 @@ namespace bankovniSystemVeryLite
             LoadTransactionHistory();
         }
 
-        public void AddTransaction(TransactionType type, float amount)
+        public void AddTransaction(TransactionType typ, float castka)
         {
-            Transaction transaction = new Transaction(type, amount, DateTime.Now);
+            Transaction transaction = new Transaction(typ, castka, DateTime.Now);
             transactionHistory.Add(transaction);
             SaveTransactionHistory();
         }
@@ -27,33 +27,59 @@ namespace bankovniSystemVeryLite
         public void PrintTransactionHistory()
         {
             Console.Clear();
-            Console.WriteLine("TRANSACTION HISTORY\n");
+            Console.WriteLine("HISTORIE TRANSAKCÍ\n");
 
             if (transactionHistory.Count == 0)
             {
-                Console.WriteLine("No transactions found.");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Nebyly nalezeny žádné pohyby.");
+                Console.ForegroundColor = ConsoleColor.White;
                 return;
             }
 
-            for (int i = Math.Max(0, transactionHistory.Count - 10) - 1; i < transactionHistory.Count; i++)
+            if (transactionHistory.Count > 10)
+            {
+                for (int i = Math.Max(0, transactionHistory.Count - 9) - 1; i < transactionHistory.Count; i++)
             {
                 var transaction = transactionHistory[i];
-                if (transaction.Type == TransactionType.Deposit)
+                if (transaction.Typ == TransactionType.Vklad)
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"Type: {transaction.Type}, Amount: {transaction.Amount} Kč,  date: {transaction.Date}");
+                    Console.WriteLine($"Typ: {transaction.Typ}, Částka: {transaction.Castka} Kč,  Datum: {transaction.Datum}");
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Type: {transaction.Type}, Amount: {transaction.Amount} Kč,  date: {transaction.Date}");
+                    Console.WriteLine($"Typ: {transaction.Typ}, Částka: {transaction.Castka} Kč,  Datum: {transaction.Datum}");
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             }
-
+            
+            }
+            else
+            {
+                foreach (var transaction in transactionHistory)
+                {
+                    if (transaction.Typ == TransactionType.Vklad)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"Typ: {transaction.Typ}, Částka: {transaction.Castka} Kč,  Datum: {transaction.Datum}");
+                        Console.ForegroundColor = ConsoleColor.White;
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Typ: {transaction.Typ}, Částka: {transaction.Castka} Kč,  Datum: {transaction.Datum}");
+                        Console.ForegroundColor = ConsoleColor.White;
+                    }
+                }
+            }
+            
+            
             float balance = 0;
             string balanceText = File.ReadAllText("balance.txt");
+
             if (float.TryParse(balanceText, out float loadedBalance))
             {
                 balance = loadedBalance;
@@ -69,7 +95,7 @@ namespace bankovniSystemVeryLite
             {
                 foreach (Transaction transaction in transactionHistory)
                 {
-                    writer.WriteLine($"{transaction.Type},{transaction.Amount},{transaction.Date}");
+                    writer.WriteLine($"{transaction.Typ},{transaction.Castka},{transaction.Datum}");
                 }
             }
         }
@@ -88,16 +114,16 @@ namespace bankovniSystemVeryLite
                             string[] rozdeleno = line.Split(",");
                             if (rozdeleno.Length == 3)
                             {
-                                TransactionType type;
-                                if (Enum.TryParse(rozdeleno[0], out type))
+                                TransactionType typ;
+                                if (Enum.TryParse(rozdeleno[0], out typ))
                                 {
-                                    float amount;
-                                    if (float.TryParse(rozdeleno[1], out amount))
+                                    float castka;
+                                    if (float.TryParse(rozdeleno[1], out castka))
                                     {
-                                        DateTime date;
-                                        if (DateTime.TryParse(rozdeleno[2], out date))
+                                        DateTime datum;
+                                        if (DateTime.TryParse(rozdeleno[2], out datum))
                                         {
-                                            transactionHistory.Add(new Transaction(type, amount, date));
+                                            transactionHistory.Add(new Transaction(typ, castka, datum));
                                         }
                                     }
                                 }
@@ -108,33 +134,37 @@ namespace bankovniSystemVeryLite
                 
                 catch
                 {
-                    Console.WriteLine("Failed to load transaction history.");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Nepodařilo se načíst historii transakcí.");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
             }
             else
             {
-                Console.WriteLine("Transaction history file not found, starting with empty history.");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Soubor s historií transakcí nebyl nalezen, začíná se s prázdnou historií.");
+                Console.ForegroundColor = ConsoleColor.White;
             }
         }
     }
 
     public enum TransactionType
     {
-        Deposit,
-        Withdraw
+        Vklad,
+        Vyber
     }
 
     public class Transaction
     {
-        public TransactionType Type { get; set; }
-        public float Amount { get; set; }
-        public DateTime Date { get; set; }
+        public TransactionType Typ { get; set; }
+        public float Castka { get; set; }
+        public DateTime Datum { get; set; }
 
-        public Transaction(TransactionType type, float amount, DateTime date)
+        public Transaction(TransactionType typ, float castka, DateTime datum)
         {
-            Type = type;
-            Amount = amount;
-            Date = date;
+            Typ = typ;
+            Castka = castka;
+            Datum = datum;
         }   
     }
 
