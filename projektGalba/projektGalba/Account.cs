@@ -1,14 +1,20 @@
 ﻿
+
 namespace bankovniSystemVeryLite
 {
+    // Definice třídy Account, která zahrnuje operace související s bankovním účtem
     internal class Account
     {
+        // Statické proměnné pro výchozí uživatelské jméno a heslo
         static string username = "admin";
         static string password = "admin";
+        // Proměnná pro zůstatek na účtu
         private float balance = 0;
 
+        // Instance třídy TransactionHistory pro přístup k funkcím z dané třídy
         public static TransactionHistory TransactionHistory = new TransactionHistory();
 
+        // Metoda pro přihlášení uživatele
         public void Login()
         {
             bool loggedIn = false;
@@ -40,11 +46,13 @@ namespace bankovniSystemVeryLite
 
         }
 
+        // Metoda pro uložení uživatelského jména do souboru
         public void SaveUsername()
         {
             File.WriteAllText("username.txt", username.ToString());
         }
 
+        // Metoda pro načtení uživatelského jména ze souboru
         public void LoadUsername()
         {
             if (File.Exists("username.txt"))
@@ -54,11 +62,13 @@ namespace bankovniSystemVeryLite
             }
         }
 
+        // Metoda pro uložení hesla do souboru
         public void SavePassword()
         {
             File.WriteAllText("password.txt", password.ToString());
         }
 
+        // Metoda pro načtení hesla ze souboru
         public void LoadPassword()
         {
             if (File.Exists("password.txt"))
@@ -67,7 +77,8 @@ namespace bankovniSystemVeryLite
                 password = loadedPassword;
             }
         }
-
+        
+        // Metoda pro změnu uživatelského jména
         public void ChangeUsername()
         {
             Console.Write("\nZadejte nové uživatelské jméno: ");
@@ -81,6 +92,7 @@ namespace bankovniSystemVeryLite
             VypisZustatku();
         }
 
+        // Metoda pro změnu hesla
         public void ChangePassword()
         {
             Console.Write("\nZadejte staré heslo: ");
@@ -90,13 +102,26 @@ namespace bankovniSystemVeryLite
             {
                 Console.Write("\nZadejte nové heslo: ");
                 string newPassword = Console.ReadLine();
-                password = newPassword;
-                SavePassword();
-                Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Heslo bylo úspěšně změněno.");
-                Console.ForegroundColor = ConsoleColor.White;
-                VypisZustatku();
+                Console.Write("\nZadejte nové heslo znovu: ");
+                string newPasswordAgain = Console.ReadLine();
+                if (newPasswordAgain == newPassword)
+                {
+                    password = newPassword;
+                    SavePassword();
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Heslo bylo úspěšně změněno.");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    VypisZustatku();
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Nové heslo se musí shodovat. Změna hesla selhala.");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    VypisZustatku();
+                }
             }
             else
             {
@@ -107,12 +132,14 @@ namespace bankovniSystemVeryLite
                 VypisZustatku();
             }
         }
-        
+
+        // Metoda pro uložení zůstatku na účtu do souboru
         public void SaveBalance()
         {
             File.WriteAllText("balance.txt", balance.ToString());
         }
 
+        // Metoda pro načtení zůstatku ze souboru
         public void LoadBalance()
         {
             if (File.Exists("balance.txt"))
@@ -132,12 +159,14 @@ namespace bankovniSystemVeryLite
             }
         }
 
+        // Metoda pro výpis zůstatku na účtu
         public void VypisZustatku()
         {
             Console.Write("\nAktuální zůstatek: ");
             Console.WriteLine(balance + " Kč");
         }
 
+        // Metoda pro vložení peněz na účet
         public void Vklad()
         {
             float castka;
@@ -191,6 +220,7 @@ namespace bankovniSystemVeryLite
 
         }
 
+        // Metoda pro výběr peněz z účtu
         public void Vyber()
         {
             float castka;

@@ -1,27 +1,39 @@
 ﻿
+//dodelat komentare
+
+
+
 namespace bankovniSystemVeryLite
 {
+    // Definice třídy UI pro uživatelské rozhraní
     internal class UI
     {
+        // Hlavní metoda programu
         static void Main()
         {
+            // Vytvoření instance třídy UI a účtu
             UI UI = new UI();
             Account Account = new Account();
 
+            // Načtení zůstatku, uživatelského jména a hesla z příslušných souborů
             Account.LoadBalance();
             Account.LoadUsername();
             Account.LoadPassword();
-            
+
+            // Přihlášení uživatele
             Account.Login();
             bool prihlasen = true;
 
+            // Hlavní smyčka programu
             while (prihlasen)
             {
+                // Zobrazení menu
                 UI.Menu();
                 Console.Write("Zadej požadavek: ");
                 string x = Console.ReadLine();
                 Console.WriteLine();
 
+                // Logika pro výběr operace podle uživatelova vstupu
                 switch (x)
                 {
                     case "1":
@@ -60,6 +72,7 @@ namespace bankovniSystemVeryLite
                         break;
                 }
 
+                // Pokud se uživatel odhlásí, provede se znovu přihlášení
                 if (!prihlasen)
                 {
                     Console.Clear();
@@ -68,6 +81,8 @@ namespace bankovniSystemVeryLite
                 }
             }                        
         }
+
+        // Metoda pro zobrazení hlavního menu
         public void Menu()
         {
             Console.WriteLine("\n---------- MENU ----------\n");
