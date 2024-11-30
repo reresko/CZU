@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\projektGalba\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F8BE70B3-7A73-4FD7-B1A7-34C53FB489CB}|projektGalba\\bankovniSystemVeryLite.csproj|c:\\users\\adca\\desktop\\adamko\\programming\\czu\\projektgalba\\projektgalba\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BE70B3-7A73-4FD7-B1A7-34C53FB489CB}|projektGalba\\bankovniSystemVeryLite.csproj|solutionrelative:projektgalba\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F8BE70B3-7A73-4FD7-B1A7-34C53FB489CB}|projektGalba\\bankovniSystemVeryLite.csproj|c:\\users\\adca\\desktop\\adamko\\programming\\czu\\projektgalba\\projektgalba\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8BE70B3-7A73-4FD7-B1A7-34C53FB489CB}|projektGalba\\bankovniSystemVeryLite.csproj|solutionrelative:projektgalba\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8BE70B3-7A73-4FD7-B1A7-34C53FB489CB}|projektGalba\\bankovniSystemVeryLite.csproj|c:\\users\\adca\\desktop\\adamko\\programming\\czu\\projektgalba\\projektgalba\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8BE70B3-7A73-4FD7-B1A7-34C53FB489CB}|projektGalba\\bankovniSystemVeryLite.csproj|solutionrelative:projektgalba\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8BE70B3-7A73-4FD7-B1A7-34C53FB489CB}|projektGalba\\bankovniSystemVeryLite.csproj|c:\\users\\adca\\desktop\\adamko\\programming\\czu\\projektgalba\\projektgalba\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BE70B3-7A73-4FD7-B1A7-34C53FB489CB}|projektGalba\\bankovniSystemVeryLite.csproj|solutionrelative:projektgalba\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TransactionHistory.cs",
               "DocumentMoniker": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\projektGalba\\projektGalba\\TransactionHistory.cs",
               "RelativeDocumentMoniker": "projektGalba\\TransactionHistory.cs",
-              "ToolTip": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\projektGalba\\projektGalba\\TransactionHistory.cs",
-              "RelativeToolTip": "projektGalba\\TransactionHistory.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAAAYwMEAAAApAAAA",
+              "ToolTip": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\projektGalba\\projektGalba\\TransactionHistory.cs*",
+              "RelativeToolTip": "projektGalba\\TransactionHistory.cs*",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAIwF8AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T19:30:26.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\projektGalba\\projektGalba\\Account.cs",
               "RelativeDocumentMoniker": "projektGalba\\Account.cs",
               "ToolTip": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\projektGalba\\projektGalba\\Account.cs",
               "RelativeToolTip": "projektGalba\\Account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUBAAAVAAAA",
+              "ViewState": "AQIAAPkAAAAAAAAAAADwvxoBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T19:30:24.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UI.cs",
               "DocumentMoniker": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\projektGalba\\projektGalba\\UI.cs",
               "RelativeDocumentMoniker": "projektGalba\\UI.cs",
               "ToolTip": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\projektGalba\\projektGalba\\UI.cs",
               "RelativeToolTip": "projektGalba\\UI.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAwwFEAAAAlAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAwwGMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T19:30:22.477Z",
               "EditorCaption": ""

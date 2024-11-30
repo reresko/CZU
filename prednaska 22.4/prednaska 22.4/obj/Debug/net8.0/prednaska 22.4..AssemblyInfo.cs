@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("prednaska 22.4.")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee4346c0b1cb32d8accd21eec1c1b7941b69f894")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6531f2bbf39dadc1fe6ef76802dde24d2e26026")]
 [assembly: System.Reflection.AssemblyProductAttribute("prednaska 22.4.")]
 [assembly: System.Reflection.AssemblyTitleAttribute("prednaska 22.4.")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

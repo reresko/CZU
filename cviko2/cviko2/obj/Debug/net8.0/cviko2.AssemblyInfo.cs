@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cviko2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eed1b9d3d682c98399e323360bf980282db96185")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6531f2bbf39dadc1fe6ef76802dde24d2e26026")]
 [assembly: System.Reflection.AssemblyProductAttribute("cviko2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cviko2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

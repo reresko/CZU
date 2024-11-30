@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bankovniSystemVeryLite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bde5326fcc2ff8cf132f65e0d7b620841b34a4a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6531f2bbf39dadc1fe6ef76802dde24d2e26026")]
 [assembly: System.Reflection.AssemblyProductAttribute("bankovniSystemVeryLite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bankovniSystemVeryLite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
