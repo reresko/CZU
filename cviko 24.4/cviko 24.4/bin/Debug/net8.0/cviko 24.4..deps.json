@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "cviko 24.4./1.0.0": {
+        "runtime": {
+          "cviko 24.4..dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cviko 24.4./1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

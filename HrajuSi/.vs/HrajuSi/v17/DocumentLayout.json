@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Adamko\\Programming\\CZU\\HrajuSi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0B6FAA-36EC-4D59-8563-03181FA7BA52}|HrajuSi\\HrajuSi.csproj|c:\\adamko\\programming\\czu\\hrajusi\\hrajusi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD0B6FAA-36EC-4D59-8563-03181FA7BA52}|HrajuSi\\HrajuSi.csproj|solutionrelative:hrajusi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD0B6FAA-36EC-4D59-8563-03181FA7BA52}|HrajuSi\\HrajuSi.csproj|c:\\adamko\\programming\\czu\\hrajusi\\hrajusi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD0B6FAA-36EC-4D59-8563-03181FA7BA52}|HrajuSi\\HrajuSi.csproj|solutionrelative:hrajusi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\HrajuSi\\HrajuSi\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HrajuSi\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\HrajuSi\\HrajuSi\\MainWindow.xaml.cs",
+              "RelativeToolTip": "HrajuSi\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T16:13:28.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\HrajuSi\\HrajuSi\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HrajuSi\\MainWindow.xaml",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\HrajuSi\\HrajuSi\\MainWindow.xaml",
+              "RelativeToolTip": "HrajuSi\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-18T16:13:30.613Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

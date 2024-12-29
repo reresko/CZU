@@ -1,0 +1,15 @@
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\bin\Debug\net8.0\ProjektProgramovaniCapek.exe
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\bin\Debug\net8.0\ProjektProgramovaniCapek.deps.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\bin\Debug\net8.0\ProjektProgramovaniCapek.runtimeconfig.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\bin\Debug\net8.0\ProjektProgramovaniCapek.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\bin\Debug\net8.0\ProjektProgramovaniCapek.pdb
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\obj\Debug\net8.0\ProjektProgramovaniCapek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\obj\Debug\net8.0\ProjektProgramovaniCapek.AssemblyInfoInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\obj\Debug\net8.0\ProjektProgramovaniCapek.AssemblyInfo.cs
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\obj\Debug\net8.0\ProjektProgramovaniCapek.csproj.CoreCompileInputs.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\obj\Debug\net8.0\ProjektProgramovaniCapek.sourcelink.json
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\obj\Debug\net8.0\ProjektProgramovaniCapek.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\obj\Debug\net8.0\refint\ProjektProgramovaniCapek.dll
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\obj\Debug\net8.0\ProjektProgramovaniCapek.pdb
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\obj\Debug\net8.0\ProjektProgramovaniCapek.genruntimeconfig.cache
+C:\Users\adca\Desktop\Adamko\Programming\CZU\ProjektProgramovaniCapek\ProjektProgramovaniCapek\obj\Debug\net8.0\ref\ProjektProgramovaniCapek.dll

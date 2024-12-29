@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\cviko 24.4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60B45AD8-3103-4EA4-A4DF-1F97ED7A1E00}|..\\cviko 24.4\\cviko 24.4\\cviko 24.4..csproj|c:\\users\\adca\\desktop\\adamko\\programming\\czu\\cviko 24.4\\cviko 24.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60B45AD8-3103-4EA4-A4DF-1F97ED7A1E00}|..\\cviko 24.4\\cviko 24.4\\cviko 24.4..csproj|solutionrelative:cviko 24.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\cviko 24.4\\cviko 24.4\\Program.cs",
+              "RelativeDocumentMoniker": "cviko 24.4\\Program.cs",
+              "ToolTip": "C:\\Users\\adca\\Desktop\\Adamko\\Programming\\CZU\\cviko 24.4\\cviko 24.4\\Program.cs",
+              "RelativeToolTip": "cviko 24.4\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAC8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T10:12:25.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
