@@ -25,7 +25,7 @@ namespace Minesweeper.ViewModel
 
         private void OnBeginnerClicked()
         {
-            var beginnerBoard = new GameBoard(10, 10, 10);
+            var beginnerBoard = new GameBoard(9, 9, 10);
             var gameWindow = new GameWindow
             {
                 DataContext = new GameWindowViewModel(beginnerBoard)
@@ -35,13 +35,21 @@ namespace Minesweeper.ViewModel
 
         private void OnIntermediateClicked()
         {
-            var gameWindow = new GameWindow();
+            var beginnerBoard = new GameBoard(16, 16, 10);
+            var gameWindow = new GameWindow
+            {
+                DataContext = new GameWindowViewModel(beginnerBoard)
+            };
             gameWindow.Show();
         }
 
         private void OnExpertClicked()
         {
-            var gameWindow = new GameWindow();
+            var beginnerBoard = new GameBoard(16, 24, 10);
+            var gameWindow = new GameWindow
+            {
+                DataContext = new GameWindowViewModel(beginnerBoard)
+            };
             gameWindow.Show();
         }
     }

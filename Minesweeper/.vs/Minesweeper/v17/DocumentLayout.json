@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Adamko\\Programming\\CZU\\Minesweeper\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{525B51E8-1409-4195-B6F8-C8F61726DA28}|Minesweeper\\Minesweeper.csproj|c:\\adamko\\programming\\czu\\minesweeper\\minesweeper\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{525B51E8-1409-4195-B6F8-C8F61726DA28}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525B51E8-1409-4195-B6F8-C8F61726DA28}|Minesweeper\\Minesweeper.csproj|c:\\adamko\\programming\\czu\\minesweeper\\minesweeper\\view\\gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{525B51E8-1409-4195-B6F8-C8F61726DA28}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\view\\gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525B51E8-1409-4195-B6F8-C8F61726DA28}|Minesweeper\\Minesweeper.csproj|c:\\adamko\\programming\\czu\\minesweeper\\minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{525B51E8-1409-4195-B6F8-C8F61726DA28}|Minesweeper\\Minesweeper.csproj|solutionrelative:minesweeper\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameWindow.xaml",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\Minesweeper\\Minesweeper\\View\\GameWindow.xaml",
+              "RelativeDocumentMoniker": "Minesweeper\\View\\GameWindow.xaml",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\Minesweeper\\Minesweeper\\View\\GameWindow.xaml",
+              "RelativeToolTip": "Minesweeper\\View\\GameWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-29T17:23:28.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\Minesweeper\\Minesweeper\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "Minesweeper\\ViewModel\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\Minesweeper\\Minesweeper\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeToolTip": "Minesweeper\\ViewModel\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwC8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T17:20:34.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\Minesweeper\\Minesweeper\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Minesweeper\\MainWindow.xaml",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\Minesweeper\\Minesweeper\\MainWindow.xaml",
+              "RelativeToolTip": "Minesweeper\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-29T17:20:29.25Z",
+              "EditorCaption": ""
             }
           ]
         }
