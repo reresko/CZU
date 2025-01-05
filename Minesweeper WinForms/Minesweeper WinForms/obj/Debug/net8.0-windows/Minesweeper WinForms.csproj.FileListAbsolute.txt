@@ -1,0 +1,18 @@
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\bin\Debug\net8.0-windows\Minesweeper WinForms.exe
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\bin\Debug\net8.0-windows\Minesweeper WinForms.deps.json
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\bin\Debug\net8.0-windows\Minesweeper WinForms.runtimeconfig.json
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\bin\Debug\net8.0-windows\Minesweeper WinForms.dll
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\bin\Debug\net8.0-windows\Minesweeper WinForms.pdb
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper_WinForms.Form1.resources
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper WinForms.csproj.GenerateResource.cache
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper WinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper WinForms.AssemblyInfoInputs.cache
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper WinForms.AssemblyInfo.cs
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper WinForms.csproj.CoreCompileInputs.cache
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper WinForms.sourcelink.json
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper WinForms.dll
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\refint\Minesweeper WinForms.dll
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper WinForms.pdb
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper WinForms.genruntimeconfig.cache
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\ref\Minesweeper WinForms.dll
+C:\Adamko\Programming\CZU\Minesweeper WinForms\Minesweeper WinForms\obj\Debug\net8.0-windows\Minesweeper_WinForms.Properties.Resources.resources
