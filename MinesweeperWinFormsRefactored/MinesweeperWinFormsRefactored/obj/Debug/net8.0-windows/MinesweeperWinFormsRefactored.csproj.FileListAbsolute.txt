@@ -1,0 +1,17 @@
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\bin\Debug\net8.0-windows\MinesweeperWinFormsRefactored.exe
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\bin\Debug\net8.0-windows\MinesweeperWinFormsRefactored.deps.json
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\bin\Debug\net8.0-windows\MinesweeperWinFormsRefactored.runtimeconfig.json
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\bin\Debug\net8.0-windows\MinesweeperWinFormsRefactored.dll
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\bin\Debug\net8.0-windows\MinesweeperWinFormsRefactored.pdb
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.csproj.GenerateResource.cache
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.GeneratedMSBuildEditorConfig.editorconfig
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.AssemblyInfoInputs.cache
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.AssemblyInfo.cs
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.csproj.CoreCompileInputs.cache
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.sourcelink.json
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.dll
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\refint\MinesweeperWinFormsRefactored.dll
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.pdb
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.genruntimeconfig.cache
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\ref\MinesweeperWinFormsRefactored.dll
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.MinesweeperMainWindow.resources
