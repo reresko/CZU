@@ -177,9 +177,9 @@ namespace Minesweeper_WinForms
 
                     byte value = positions[xAdjacent, yAdjacent];
 
+                    //zjisti jestli btnAdjacent uz byl otevren nebo jestli na nej bylo kliknuto
                     if (value == 20)
                     {
-                        //zjisti jestli btnAdjacent uz byl otevren nebo jestli na nej bylo kliknuto
                         if (btnAdjacent.FlatStyle != FlatStyle.Flat)
                         {
                             btnAdjacent.FlatStyle = FlatStyle.Flat;
