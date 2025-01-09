@@ -22,3 +22,4 @@ C:\Adamko\Programming\CZU\Minesweeper\Minesweeper\obj\Debug\net8.0-windows\MainW
 C:\Adamko\Programming\CZU\Minesweeper\Minesweeper\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Adamko\Programming\CZU\Minesweeper\Minesweeper\obj\Debug\net8.0-windows\View\GameWindow.g.cs
 C:\Adamko\Programming\CZU\Minesweeper\Minesweeper\obj\Debug\net8.0-windows\View\GameWindow.baml
+C:\Adamko\Programming\CZU\Minesweeper\Minesweeper\obj\Debug\net8.0-windows\App.baml

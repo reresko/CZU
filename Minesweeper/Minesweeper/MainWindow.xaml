@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Minesweeper"
         xmlns:vm="clr-namespace:Minesweeper.ViewModel"
         mc:Ignorable="d"
-        Title="Minesweeper" Height="225" Width="400">
+        Title="Minesweeper" Height="225" Width="400"
+        WindowStartupLocation="CenterScreen">
 
     <Window.DataContext>
         <vm:MainWindowViewModel />
