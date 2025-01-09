@@ -1,0 +1,15 @@
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\bin\Debug\net8.0\MajaPrvniProgram.exe
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\bin\Debug\net8.0\MajaPrvniProgram.deps.json
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\bin\Debug\net8.0\MajaPrvniProgram.runtimeconfig.json
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\bin\Debug\net8.0\MajaPrvniProgram.dll
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\bin\Debug\net8.0\MajaPrvniProgram.pdb
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\obj\Debug\net8.0\MajaPrvniProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\obj\Debug\net8.0\MajaPrvniProgram.AssemblyInfoInputs.cache
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\obj\Debug\net8.0\MajaPrvniProgram.AssemblyInfo.cs
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\obj\Debug\net8.0\MajaPrvniProgram.csproj.CoreCompileInputs.cache
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\obj\Debug\net8.0\MajaPrvniProgram.sourcelink.json
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\obj\Debug\net8.0\MajaPrvniProgram.dll
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\obj\Debug\net8.0\refint\MajaPrvniProgram.dll
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\obj\Debug\net8.0\MajaPrvniProgram.pdb
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\obj\Debug\net8.0\MajaPrvniProgram.genruntimeconfig.cache
+C:\Adamko\Programming\CZU\MajaPrvniProgram\MajaPrvniProgram\obj\Debug\net8.0\ref\MajaPrvniProgram.dll
