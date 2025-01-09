@@ -11,12 +11,14 @@ namespace MinesweeperWinFormsRefactored
         private GameLogic _gameLogic;
         private ButtonGenerator _buttonGenerator;
         private AutoRevealEmpty _autoRevealEmpty;
+        private TextBoxHandler _flagsHandler;
 
-        public GameStarter(GameLogic gameLogic, ButtonGenerator buttonGenerator, AutoRevealEmpty autoRevealEmpty)
+        public GameStarter(GameLogic gameLogic, ButtonGenerator buttonGenerator, AutoRevealEmpty autoRevealEmpty, TextBoxHandler flagsHandler)
         {
             _gameLogic = gameLogic;
             _buttonGenerator = buttonGenerator;
             _autoRevealEmpty = autoRevealEmpty;
+            _flagsHandler = flagsHandler;
         }
 
         public void StartGame(int columns, int rows, int mines)
@@ -25,14 +27,16 @@ namespace MinesweeperWinFormsRefactored
             _gameLogic.RowsCount = rows;
             _gameLogic.MinesCount = mines;
 
+            _autoRevealEmpty.Reset();
+            _gameLogic.ResetRevealedCellsCount();
+
             _gameLogic.InitializeBoardDimensions();
             _gameLogic.GenerateBombs();
             _gameLogic.CalculateAdjacentMines();
 
-            _buttonGenerator.GenerateButtons(columns, rows);
+            _flagsHandler.SetValue(mines);
 
-            _autoRevealEmpty.Reset();
-            _gameLogic.ResetRevealedCellsCount();
+            _buttonGenerator.GenerateButtons(columns, rows);
         }
     }
 }

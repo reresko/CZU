@@ -11,20 +11,16 @@ namespace MinesweeperWinFormsRefactored
         private GameLogic _gameLogic;
         private Panel _panelGameField;
         private HashSet<(int, int)> _visitedCells;
-        public ButtonGenerator _buttonGenerator;
-        public AutoRevealEmpty(GameLogic gameLogic, Panel panelGameField)
-        {
-            _gameLogic = gameLogic;
-            _panelGameField = panelGameField;
-            _visitedCells = new HashSet<(int, int)>();
-        }
+        private CellColor _cellColor;
+        private TextBoxHandler _scoreHandler;
 
-        public AutoRevealEmpty(GameLogic gameLogic, Panel panelGameField, ButtonGenerator buttonGenerator)
+        public AutoRevealEmpty(GameLogic gameLogic, Panel panelGameField, TextBoxHandler scoreHandler, CellColor cellColor)
         {
             _gameLogic = gameLogic;
             _panelGameField = panelGameField;
             _visitedCells = new HashSet<(int, int)>();
-            _buttonGenerator = buttonGenerator;
+            _scoreHandler = scoreHandler;
+            _cellColor = cellColor;
         }
 
         public void RevealAdjacentCells(int x, int y)
@@ -37,8 +33,8 @@ namespace MinesweeperWinFormsRefactored
 
             _visitedCells.Add((x, y));
 
-            Button btn = _panelGameField.Controls
-                .OfType<Button>()
+            CustomButton btn = _panelGameField.Controls
+                .OfType<CustomButton>()
                 .FirstOrDefault(b => ((Tuple<int, int>)b.Tag).Item1 == x && ((Tuple<int, int>)b.Tag).Item2 == y);
 
             if (btn == null || !btn.Enabled)
@@ -51,8 +47,15 @@ namespace MinesweeperWinFormsRefactored
 
             btn.Text = minesCountCell == 0 ? "" : minesCountCell.ToString();
             btn.BackColor = Color.LightGray;
-            btn.ForeColor = _buttonGenerator.GetMineCountColor(minesCountCell);
-            _gameLogic.IncrementRevealedCells();
+            btn.ForeColor = _cellColor.GetMineCountColor(minesCountCell);
+
+            if (btn.CustomEnabled)
+            {
+                _gameLogic.IncrementRevealedCells();
+                int score = _gameLogic.RevealedCellsCount;
+                _scoreHandler.SetValue(score);
+                btn.CustomEnabled = false;
+            }
 
             if (_gameLogic.CheckWin())
             {

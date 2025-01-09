@@ -15,3 +15,4 @@ C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefac
 C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.genruntimeconfig.cache
 C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\ref\MinesweeperWinFormsRefactored.dll
 C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.MinesweeperMainWindow.resources
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\obj\Debug\net8.0-windows\MinesweeperWinFormsRefactored.Properties.Resources.resources

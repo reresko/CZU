@@ -71,16 +71,18 @@
             // 
             // txtFlags
             // 
+            txtFlags.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             txtFlags.Location = new Point(12, 79);
             txtFlags.Name = "txtFlags";
-            txtFlags.Size = new Size(54, 27);
+            txtFlags.Size = new Size(54, 32);
             txtFlags.TabIndex = 3;
             // 
             // txtScore
             // 
+            txtScore.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             txtScore.Location = new Point(858, 79);
             txtScore.Name = "txtScore";
-            txtScore.Size = new Size(54, 27);
+            txtScore.Size = new Size(54, 32);
             txtScore.TabIndex = 4;
             // 
             // label1
@@ -113,9 +115,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(415, 2);
             label2.Name = "label2";
-            label2.Size = new Size(297, 120);
+            label2.Size = new Size(297, 40);
             label2.TabIndex = 8;
-            label2.Text = "dodelat:\r\n0) check win funguje debilně\r\n1) odkryt vsechno po tom co kliknu na minu\r\n2) pocitadla/ukazatele vlajek a skore\r\n3) barvicky kdyz se to samo odhali\r\n4) ikony";
+            label2.Text = "dodelat:\r\n1) odkryt vsechno po tom co kliknu na minu";
             // 
             // MinesweeperMainWindow
             // 

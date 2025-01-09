@@ -54,19 +54,8 @@ namespace MinesweeperWinFormsRefactored
                     // 10 znamená mina
                     Positions[x, y] = 10;
                     bombs++;
-                    Console.WriteLine($"mina generovana na ({x},{y})");
                 }
             }
-            //!!!!!!!!!!!!ladici kod
-            for (int y = 0; y < RowsCount; y++)
-            {
-                for (int x = 0; x < ColumnsCount; x++)
-                {
-                    Console.Write(Positions[x, y] + " ");
-                }
-                Console.WriteLine();
-            }
-
         }
 
         public void CalculateAdjacentMines()
@@ -75,12 +64,6 @@ namespace MinesweeperWinFormsRefactored
             {
                 for (int x = 0; x < ColumnsCount; x++)
                 {
-                    Console.WriteLine($"({x},{y}) před výpočtem: {Positions[x, y]}");
-                    if (Positions[x, y] == 10)
-                    {
-                        Console.WriteLine($"({x},{y}) je mina");
-                        //continue;
-                    }
                     byte bombCount = 0;
 
                     //2 for loopy pocitajici kolik bomb je na kazdem sousedovi
@@ -105,17 +88,13 @@ namespace MinesweeperWinFormsRefactored
                     if (Positions[x, y] != 10)
                     {
                         Positions[x, y] = bombCount;
-                        
                     }
-                    Console.WriteLine($"({x},{y}) ma {bombCount} okolnich min");
-                    Console.WriteLine($"({x},{y}) po výpočtu: {Positions[x, y]}");
                 }
             }
         }
         public void IncrementRevealedCells()
         {
             RevealedCellsCount++;
-            Console.WriteLine($"{RevealedCellsCount}");
         }
 
         public bool CheckWin()

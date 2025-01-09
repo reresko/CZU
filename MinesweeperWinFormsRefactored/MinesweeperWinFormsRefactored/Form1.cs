@@ -3,19 +3,21 @@ namespace MinesweeperWinFormsRefactored
     public partial class MinesweeperMainWindow : Form
     {
         GameStarter gameStarter;
+
         public MinesweeperMainWindow()
         {
             InitializeComponent();
 
-            GameLogic gameLogic = new GameLogic();
-
-            //ButtonGenerator buttonGenerator;
-            AutoRevealEmpty autoRevealEmpty = new AutoRevealEmpty(gameLogic, panelGameField);
             ButtonGenerator buttonGenerator;
-            buttonGenerator = new ButtonGenerator(panelGameField, gameLogic, autoRevealEmpty);
-            autoRevealEmpty._buttonGenerator = buttonGenerator;
-            //autoRevealEmpty = new AutoRevealEmpty(gameLogic, panelGameField, buttonGenerator);
-            gameStarter = new GameStarter(gameLogic, buttonGenerator, autoRevealEmpty);
+            AutoRevealEmpty autoRevealEmpty;
+            GameLogic gameLogic;
+            RevealAllCells revealAllCells;
+
+            gameLogic = new GameLogic();
+            revealAllCells = new RevealAllCells(panelGameField, new CellColor(), gameLogic);
+            autoRevealEmpty = new AutoRevealEmpty(gameLogic, panelGameField, new TextBoxHandler(txtScore), new CellColor());
+            buttonGenerator = new ButtonGenerator(panelGameField, gameLogic, autoRevealEmpty, new TextBoxHandler(txtFlags), new TextBoxHandler(txtScore), new CellColor(), revealAllCells);
+            gameStarter = new GameStarter(gameLogic, buttonGenerator, autoRevealEmpty, new TextBoxHandler(txtFlags));
         }
 
         private void btnBeginner_Click(object sender, EventArgs e)

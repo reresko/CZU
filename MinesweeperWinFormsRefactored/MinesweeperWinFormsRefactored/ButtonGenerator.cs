@@ -12,12 +12,20 @@ namespace MinesweeperWinFormsRefactored
         private Panel _panelGameField;
         private GameLogic _gameLogic;
         private AutoRevealEmpty _autoRevealEmpty;
+        private TextBoxHandler _flagsHandler;
+        private TextBoxHandler _scoreHandler;
+        private CellColor _cellColor;
+        private RevealAllCells _revealAllCells;
 
-        public ButtonGenerator(Panel panelGameField, GameLogic gameLogic, AutoRevealEmpty autoRevealEmpty)
+        public ButtonGenerator(Panel panelGameField, GameLogic gameLogic, AutoRevealEmpty autoRevealEmpty, TextBoxHandler flagsHandler, TextBoxHandler scoreHandler, CellColor cellColor, RevealAllCells revealAllCells)
         {
             _panelGameField = panelGameField;
             _gameLogic = gameLogic;
             _autoRevealEmpty = autoRevealEmpty;
+            _flagsHandler = flagsHandler;
+            _scoreHandler = scoreHandler;
+            _cellColor = cellColor;
+            _revealAllCells = revealAllCells;
         }
 
         public void GenerateButtons(int columns, int rows)
@@ -32,14 +40,12 @@ namespace MinesweeperWinFormsRefactored
             {
                 for (int y = 0; y < rows; y++)
                 {
-                    Button btn = new Button
-                    {
-                        Width = 30,
-                        Height = 30,
-                        Left = x * 30,
-                        Top = y * 30,
-                        Tag = new Tuple<int, int>(x, y)
-                    };
+                    CustomButton btn = new CustomButton();
+                    btn.Width = 30;
+                    btn.Height = 30;
+                    btn.Left = x * 30;
+                    btn.Top = y * 30;
+                    btn.Tag = new Tuple<int, int>(x, y);
 
                     //btn.Click += (sender, e) => OnButtonClick(sender, e, x, y);
                     btn.Click += (sender, e) => OnButtonClick(sender, e);
@@ -51,10 +57,10 @@ namespace MinesweeperWinFormsRefactored
 
         private void OnButtonClick(object sender, EventArgs e)
         {
-            Button btn = sender as Button;
+            CustomButton btn = sender as CustomButton;
             if (btn != null)
             {
-                if (btn.Text == "F")
+                if (btn.IsFlag)
                     return;
 
                 var coordinates = (Tuple<int, int>)btn.Tag;
@@ -67,8 +73,9 @@ namespace MinesweeperWinFormsRefactored
 
                 if (minesCountCell == 10)
                 {
-                    btn.Text = "X";
-                    MessageBox.Show("game over");
+                    btn.Image = Properties.Resources.mine;
+                    _revealAllCells.RevealAll();
+                    MessageBox.Show("Game Over!", "Lose", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                     _panelGameField.Enabled = false;
                 }
                 else if (minesCountCell == 0)
@@ -78,18 +85,20 @@ namespace MinesweeperWinFormsRefactored
                 else
                 {
                     btn.Text = minesCountCell.ToString();
-                    btn.ForeColor = GetMineCountColor(minesCountCell);
+                    btn.ForeColor = _cellColor.GetMineCountColor(minesCountCell);
                 }
 
-                if (btn.Enabled)
+                if (btn.CustomEnabled)
                 {
                     _gameLogic.IncrementRevealedCells();
-                    btn.Enabled = false;
+                    int score = _gameLogic.RevealedCellsCount;
+                    _scoreHandler.SetValue(score);
+                    btn.CustomEnabled = false;
                 }
 
                 if (_gameLogic.CheckWin())
                 {
-                    MessageBox.Show("you won");
+                    MessageBox.Show("You Won!", "Win", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     _panelGameField.Enabled = false;
                     _gameLogic.RevealedCellsCount = 0;
                 }
@@ -100,35 +109,27 @@ namespace MinesweeperWinFormsRefactored
         {
             if (e.Button == MouseButtons.Right)
             {
-                Button btn = sender as Button;
+                CustomButton btn = sender as CustomButton;
                 if (btn != null && btn.Enabled)
                 {
-                    if (btn.Text == "F")
+                    int FlagsAvailable = _flagsHandler.GetValue();
+
+                    if (btn.IsFlag)
                     {
-                        btn.Text = "";
+                        btn.IsFlag = false;
+                        btn.Image = null;
+                        FlagsAvailable++;
+                        _flagsHandler.SetValue(FlagsAvailable);
                     }
                     else
                     {
-                        btn.Text = "F";
-                        btn.ForeColor = Color.Red;
+                        btn.IsFlag = true;
+                        btn.Image = Properties.Resources.flag;
+                        FlagsAvailable--;
+                        _flagsHandler.SetValue(FlagsAvailable);
                     }
                 }
             }
-        }
-
-        public Color GetMineCountColor(int count)
-        {
-            return count switch
-            {
-                1 => Color.Blue,
-                2 => Color.Green,
-                3 => Color.Red,
-                4 => Color.DarkBlue,
-                5 => Color.DarkRed,
-                6 => Color.Cyan,
-                7 => Color.Black,
-                _ => Color.Gray,
-            };
         }
     }
 }
