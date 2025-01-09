@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjektProgramovaniCapek")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fadbabf42f588ec90a7637362a56a27245f3ede3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69da4a062275bdea5ebf1b06046fa1ec2453b85e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjektProgramovaniCapek")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjektProgramovaniCapek")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Adamko\\Programming\\CZU\\ProjektProgramovaniCapek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45A4339F-A2A3-43FB-ADA2-A7575FCD6FB0}|ProjektProgramovaniCapek\\ProjektProgramovaniCapek.csproj|C:\\Adamko\\Programming\\CZU\\ProjektProgramovaniCapek\\projektprogramovanicapek\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A4339F-A2A3-43FB-ADA2-A7575FCD6FB0}|ProjektProgramovaniCapek\\ProjektProgramovaniCapek.csproj|solutionrelative:projektprogramovanicapek\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A4339F-A2A3-43FB-ADA2-A7575FCD6FB0}|ProjektProgramovaniCapek\\ProjektProgramovaniCapek.csproj|C:\\Adamko\\Programming\\CZU\\ProjektProgramovaniCapek\\projektprogramovanicapek\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A4339F-A2A3-43FB-ADA2-A7575FCD6FB0}|ProjektProgramovaniCapek\\ProjektProgramovaniCapek.csproj|solutionrelative:projektprogramovanicapek\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45A4339F-A2A3-43FB-ADA2-A7575FCD6FB0}|ProjektProgramovaniCapek\\ProjektProgramovaniCapek.csproj|c:\\adamko\\programming\\czu\\projektprogramovanicapek\\projektprogramovanicapek\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45A4339F-A2A3-43FB-ADA2-A7575FCD6FB0}|ProjektProgramovaniCapek\\ProjektProgramovaniCapek.csproj|solutionrelative:projektprogramovanicapek\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45A4339F-A2A3-43FB-ADA2-A7575FCD6FB0}|ProjektProgramovaniCapek\\ProjektProgramovaniCapek.csproj|c:\\adamko\\programming\\czu\\projektprogramovanicapek\\projektprogramovanicapek\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45A4339F-A2A3-43FB-ADA2-A7575FCD6FB0}|ProjektProgramovaniCapek\\ProjektProgramovaniCapek.csproj|solutionrelative:projektprogramovanicapek\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45A4339F-A2A3-43FB-ADA2-A7575FCD6FB0}|ProjektProgramovaniCapek\\ProjektProgramovaniCapek.csproj|C:\\Adamko\\Programming\\CZU\\ProjektProgramovaniCapek\\projektprogramovanicapek\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,32 +36,33 @@
               "RelativeDocumentMoniker": "ProjektProgramovaniCapek\\TransactionHistory.cs",
               "ToolTip": "C:\\Adamko\\Programming\\CZU\\ProjektProgramovaniCapek\\ProjektProgramovaniCapek\\TransactionHistory.cs",
               "RelativeToolTip": "ProjektProgramovaniCapek\\TransactionHistory.cs",
-              "ViewState": "AQIAALMAAAAAAAAAAAAAAJMAAABRAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJMAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T23:03:42.967Z"
+              "WhenOpened": "2024-05-06T23:03:42.967Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\ProjektProgramovaniCapek\\ProjektProgramovaniCapek\\Account.cs",
               "RelativeDocumentMoniker": "ProjektProgramovaniCapek\\Account.cs",
               "ToolTip": "C:\\Adamko\\Programming\\CZU\\ProjektProgramovaniCapek\\ProjektProgramovaniCapek\\Account.cs",
               "RelativeToolTip": "ProjektProgramovaniCapek\\Account.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAkwDsAAAAfAAAA",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAwwDsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T23:03:21.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UI.cs",
               "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\ProjektProgramovaniCapek\\ProjektProgramovaniCapek\\UI.cs",
               "RelativeDocumentMoniker": "ProjektProgramovaniCapek\\UI.cs",
               "ToolTip": "C:\\Adamko\\Programming\\CZU\\ProjektProgramovaniCapek\\ProjektProgramovaniCapek\\UI.cs",
               "RelativeToolTip": "ProjektProgramovaniCapek\\UI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAABFAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwGAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T23:01:40.51Z",
               "EditorCaption": ""
