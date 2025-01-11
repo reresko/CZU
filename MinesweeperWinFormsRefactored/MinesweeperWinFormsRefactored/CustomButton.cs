@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MinesweeperWinFormsRefactored
 {
-
+    /// <summary>
+    /// Custom button inherited from initial <see cref="Button"/> class extended by boolean variables.
+    /// </summary>
     internal class CustomButton : Button
     {
         public bool CustomEnabled = true;

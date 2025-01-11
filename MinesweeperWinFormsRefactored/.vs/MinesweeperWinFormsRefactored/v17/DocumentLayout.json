@@ -3,31 +3,43 @@
   "WorkspaceRootPath": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|c:\\adamko\\programming\\czu\\minesweeperwinformsrefactored\\minesweeperwinformsrefactored\\textboxhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\textboxhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|c:\\adamko\\programming\\czu\\minesweeperwinformsrefactored\\minesweeperwinformsrefactored\\revealallcells.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\revealallcells.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\minesweeperwinformsrefactored\\buttongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|c:\\adamko\\programming\\czu\\minesweeperwinformsrefactored\\minesweeperwinformsrefactored\\cellcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\cellcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|c:\\adamko\\programming\\czu\\minesweeperwinformsrefactored\\minesweeperwinformsrefactored\\buttongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\buttongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|c:\\adamko\\programming\\czu\\minesweeperwinformsrefactored\\minesweeperwinformsrefactored\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|c:\\adamko\\programming\\czu\\minesweeperwinformsrefactored\\minesweeperwinformsrefactored\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|c:\\adamko\\programming\\czu\\minesweeperwinformsrefactored\\minesweeperwinformsrefactored\\gamestarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\gamestarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|c:\\adamko\\programming\\czu\\minesweeperwinformsrefactored\\minesweeperwinformsrefactored\\autorevealempty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\autorevealempty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\minesweeperwinformsrefactored\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\minesweeperwinformsrefactored\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\minesweeperwinformsrefactored\\gamestarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\gamestarter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\minesweeperwinformsrefactored\\autorevealempty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\autorevealempty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|c:\\adamko\\programming\\czu\\minesweeperwinformsrefactored\\minesweeperwinformsrefactored\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\minesweeperwinformsrefactored\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,93 +50,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TextBoxHandler.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\TextBoxHandler.cs",
+              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\TextBoxHandler.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\TextBoxHandler.cs",
+              "RelativeToolTip": "MinesweeperWinFormsRefactored\\TextBoxHandler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwCcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T14:03:34.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RevealAllCells.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\RevealAllCells.cs",
+              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\RevealAllCells.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\RevealAllCells.cs",
+              "RelativeToolTip": "MinesweeperWinFormsRefactored\\RevealAllCells.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwDwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T13:05:43.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameStarter.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\GameStarter.cs",
+              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\GameStarter.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\GameStarter.cs",
+              "RelativeToolTip": "MinesweeperWinFormsRefactored\\GameStarter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T13:02:18.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameLogic.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\GameLogic.cs",
+              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\GameLogic.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\GameLogic.cs",
+              "RelativeToolTip": "MinesweeperWinFormsRefactored\\GameLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T12:54:57.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomButton.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\CustomButton.cs",
+              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\CustomButton.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\CustomButton.cs",
+              "RelativeToolTip": "MinesweeperWinFormsRefactored\\CustomButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T12:52:50.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CellColor.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\CellColor.cs",
+              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\CellColor.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\CellColor.cs",
+              "RelativeToolTip": "MinesweeperWinFormsRefactored\\CellColor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T12:49:28.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ButtonGenerator.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
+              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
+              "RelativeToolTip": "MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwH0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T12:34:44.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AutoRevealEmpty.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\AutoRevealEmpty.cs",
+              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\AutoRevealEmpty.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\AutoRevealEmpty.cs",
+              "RelativeToolTip": "MinesweeperWinFormsRefactored\\AutoRevealEmpty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T10:24:23.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\Form1.cs",
+              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\Form1.cs",
+              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\Form1.cs",
+              "RelativeToolTip": "MinesweeperWinFormsRefactored\\Form1.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T13:35:54.139Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RevealAllCells.cs",
-              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\RevealAllCells.cs",
-              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\RevealAllCells.cs",
-              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\RevealAllCells.cs",
-              "RelativeToolTip": "MinesweeperWinFormsRefactored\\RevealAllCells.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCgAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T20:24:47.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AutoRevealEmpty.cs",
-              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\AutoRevealEmpty.cs",
-              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\AutoRevealEmpty.cs",
-              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\AutoRevealEmpty.cs",
-              "RelativeToolTip": "MinesweeperWinFormsRefactored\\AutoRevealEmpty.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T18:18:40.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ButtonGenerator.cs",
-              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
-              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
-              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
-              "RelativeToolTip": "MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAYwEoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T16:36:18.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameStarter.cs",
-              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\GameStarter.cs",
-              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\GameStarter.cs",
-              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\GameStarter.cs",
-              "RelativeToolTip": "MinesweeperWinFormsRefactored\\GameStarter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T15:41:01.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameLogic.cs",
-              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\GameLogic.cs",
-              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\GameLogic.cs",
-              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\GameLogic.cs",
-              "RelativeToolTip": "MinesweeperWinFormsRefactored\\GameLogic.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwF4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:38:12.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\Form1.cs",
-              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\Form1.cs",
-              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\Form1.cs",
-              "RelativeToolTip": "MinesweeperWinFormsRefactored\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T13:35:54.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\Form1.cs",
               "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\Form1.cs",

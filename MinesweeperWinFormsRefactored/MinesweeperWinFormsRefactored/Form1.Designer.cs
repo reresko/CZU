@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             btnBeginner = new Button();
             btnIntermediate = new Button();
             btnExpert = new Button();
@@ -36,7 +37,8 @@
             label1 = new Label();
             labelScore = new Label();
             panelGameField = new Panel();
-            label2 = new Label();
+            labelTime = new Label();
+            timerDesign = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // btnBeginner
@@ -110,21 +112,26 @@
             panelGameField.Size = new Size(900, 479);
             panelGameField.TabIndex = 7;
             // 
-            // label2
+            // labelTime
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(415, 2);
-            label2.Name = "label2";
-            label2.Size = new Size(297, 40);
-            label2.TabIndex = 8;
-            label2.Text = "dodelat:\r\n1) odkryt vsechno po tom co kliknu na minu";
+            labelTime.AutoSize = true;
+            labelTime.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            labelTime.Location = new Point(858, 22);
+            labelTime.Name = "labelTime";
+            labelTime.Size = new Size(0, 25);
+            labelTime.TabIndex = 8;
+            // 
+            // timerDesign
+            // 
+            timerDesign.Interval = 1000;
+            timerDesign.Tick += timer_Tick;
             // 
             // MinesweeperMainWindow
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(924, 603);
-            Controls.Add(label2);
+            Controls.Add(labelTime);
             Controls.Add(panelGameField);
             Controls.Add(labelScore);
             Controls.Add(label1);
@@ -149,6 +156,7 @@
         private Label label1;
         private Label labelScore;
         private Panel panelGameField;
-        private Label label2;
+        private Label labelTime;
+        public System.Windows.Forms.Timer timerDesign;
     }
 }

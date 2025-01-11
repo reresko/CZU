@@ -1,0 +1,5 @@
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\bin\Release\net8.0-windows\app.publish\MinesweeperWinFormsRefactored.exe
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\bin\Release\net8.0-windows\app.publish\MinesweeperWinFormsRefactored.dll
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\bin\Release\net8.0-windows\app.publish\MinesweeperWinFormsRefactored.deps.json
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\bin\Release\net8.0-windows\app.publish\MinesweeperWinFormsRefactored.runtimeconfig.json
+C:\Adamko\Programming\CZU\MinesweeperWinFormsRefactored\MinesweeperWinFormsRefactored\bin\Release\net8.0-windows\app.publish\MinesweeperWinFormsRefactored.pdb

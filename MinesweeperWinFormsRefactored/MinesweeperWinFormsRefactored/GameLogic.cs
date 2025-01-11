@@ -7,27 +7,54 @@ using System.Threading.Tasks;
 
 namespace MinesweeperWinFormsRefactored
 {
+    /// <summary>
+    /// Handles the core logic of the Minesweeper game, including board initialization, bomb placement, 
+    /// and checking game states like winning conditions.
+    /// </summary>
     internal class GameLogic
     {
-        // kolik bude sloupcu (osa x) - ziskam kliknutim na tlacitko obtiznosti
+        /// <summary>
+        /// Number of columns (x-axis) on the game board, set based on difficulty.
+        /// </summary>
         public int ColumnsCount { get; set; }
-        // kolik bude radku (osa y) - ziskam kliknutim na tlacitko obtiznosti
+        /// <summary>
+        /// Number of rows (y-axis) on the game board, set based on difficulty.
+        /// </summary>
         public int RowsCount { get; set; }
-        // kolik bude min - ziskam kliknutim na tlacitko obtiznosti
+        /// <summary>
+        /// Number of bombs to be placed on the game board, set based on difficulty.
+        /// </summary>
         public int MinesCount { get; set; }
-        // pozice jednotlivych bunek
+        /// <summary>
+        /// 2D array representing the game board. Each cell contains:
+        /// - 10: A bomb.
+        /// - 0-8: Number of adjacent bombs.
+        /// </summary>
         public int[,] Positions { get; set; }
+        /// <summary>
+        /// Total number of cells on the game board.
+        /// </summary>
         public int TotalCells => RowsCount * ColumnsCount;
+        /// <summary>
+        /// Number of cells that have been revealed by the player.
+        /// </summary>
         public int RevealedCellsCount { get; set; } = 0;
 
         Random random = new Random();
 
+        /// <summary>
+        /// Resets the count of revealed cells to zero.
+        /// </summary>
         public void ResetRevealedCellsCount()
         {
             RevealedCellsCount = 0;
         }
 
-        // zavolá se při každém spuštění hry
+        /// <summary>
+        /// Initializes the dimensions of the game board and validates them.
+        /// This is called whenever a new game starts.
+        /// </summary>
+        /// <exception cref="InvalidOperationException">Thrown if dimensions are not greater than 0.</exception>
         public void InitializeBoardDimensions()
         {
             if (ColumnsCount <= 0 || RowsCount <= 0)
@@ -36,6 +63,11 @@ namespace MinesweeperWinFormsRefactored
             Positions = new int[ColumnsCount, RowsCount];
         }
 
+        /// <summary>
+        /// Randomly places bombs on the game board.
+        /// Ensures the number of bombs matches <see cref="MinesCount"/>.
+        /// </summary>
+        /// <exception cref="InvalidOperationException">Thrown if the game board is not initialized.</exception>
         public void GenerateBombs()
         {
             if (Positions == null)
@@ -48,16 +80,19 @@ namespace MinesweeperWinFormsRefactored
                 int x = random.Next(0, ColumnsCount);
                 int y = random.Next(0, RowsCount);
 
-                // kdyz v bunce neni mina
+                //if there is no mine in the cell
                 if (Positions[x, y] == 0)
                 {
-                    // 10 znamená mina
                     Positions[x, y] = 10;
                     bombs++;
                 }
             }
         }
 
+        /// <summary>
+        /// Calculates the number of adjacent bombs for each cell on the game board.
+        /// Updates cells with a count (0-8) unless they contain a bomb.
+        /// </summary>
         public void CalculateAdjacentMines()
         {
             for (int y = 0; y < RowsCount; y++)
@@ -66,7 +101,7 @@ namespace MinesweeperWinFormsRefactored
                 {
                     byte bombCount = 0;
 
-                    //2 for loopy pocitajici kolik bomb je na kazdem sousedovi
+                    //check all neighbors around the current cell
                     for (int counterX = -1; counterX <= 1; counterX++)
                     {
                         for (int counterY = -1; counterY <= 1; ++counterY)
@@ -77,6 +112,7 @@ namespace MinesweeperWinFormsRefactored
                             int neighborX = x + counterX;
                             int neighborY = y + counterY;
 
+                            //ensure the neighbor is within the game board boundaries
                             if (neighborX >= 0 && neighborX < ColumnsCount && neighborY >= 0 && neighborY < RowsCount)
                             {
                                 if (Positions[neighborX, neighborY] == 10)
@@ -85,6 +121,7 @@ namespace MinesweeperWinFormsRefactored
                         }
                     }
 
+                    //update the current cell with the bomb count, unless it contains a bomb
                     if (Positions[x, y] != 10)
                     {
                         Positions[x, y] = bombCount;
@@ -92,14 +129,22 @@ namespace MinesweeperWinFormsRefactored
                 }
             }
         }
+        /// <summary>
+        /// Increments the count of revealed cells.
+        /// Called whenever a player successfully reveals a cell.
+        /// </summary>
         public void IncrementRevealedCells()
         {
             RevealedCellsCount++;
         }
 
+        /// <summary>
+        /// Checks if the player has won the game.
+        /// Winning occurs when all non-bomb cells are revealed.
+        /// </summary>
+        /// <returns>True if the player has won, otherwise false.</returns>
         public bool CheckWin()
         {
-            // Výhra nastane, pokud jsou odhaleny všechny buňky kromě těch s minami
             return RevealedCellsCount == TotalCells - MinesCount;
         }
     }

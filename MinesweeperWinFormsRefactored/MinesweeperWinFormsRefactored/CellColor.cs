@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace MinesweeperWinFormsRefactored
 {
+    /// <summary>
+    /// Provides color-coding for mine counts displayed on the Minesweeper grid.
+    /// </summary>
     internal class CellColor
     {
+        /// <summary>
+        /// Determines the color associated with a given mine count.
+        /// </summary>
+        /// <param name="count">The number of mines adjacent to a cell.</param>
+        /// <returns>A <see cref="Color"/> representing the mine count.</returns>
         public Color GetMineCountColor(int count)
         {
             return count switch
