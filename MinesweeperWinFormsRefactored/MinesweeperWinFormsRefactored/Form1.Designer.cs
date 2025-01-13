@@ -76,6 +76,7 @@
             txtFlags.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             txtFlags.Location = new Point(12, 79);
             txtFlags.Name = "txtFlags";
+            txtFlags.ReadOnly = true;
             txtFlags.Size = new Size(54, 32);
             txtFlags.TabIndex = 3;
             // 
@@ -84,6 +85,7 @@
             txtScore.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             txtScore.Location = new Point(858, 79);
             txtScore.Name = "txtScore";
+            txtScore.ReadOnly = true;
             txtScore.Size = new Size(54, 32);
             txtScore.TabIndex = 4;
             // 

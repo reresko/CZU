@@ -155,25 +155,22 @@ namespace MinesweeperWinFormsRefactored
                 {
                     int FlagsAvailable = _flagsHandler.GetValue();
 
-                    if (FlagsAvailable > 0)
+                    if (!btn.IsFlag && FlagsAvailable > 0)
                     {
-                        //if the cell is flagged, unflag it
-                        if (btn.IsFlag)
-                        {
-                            btn.IsFlag = false;
-                            btn.Image = null;
-                            FlagsAvailable++;
-                            _flagsHandler.SetValue(FlagsAvailable);
-                        }
-                        //flag the cell
-                        else
-                        {
-                            btn.IsFlag = true;
-                            btn.Image = Properties.Resources.flag;
-                            FlagsAvailable--;
-                            _flagsHandler.SetValue(FlagsAvailable);
-                        }
+                        btn.IsFlag = true;
+                        btn.Image = Properties.Resources.flag;
+                        FlagsAvailable--;
+                        _flagsHandler.SetValue(FlagsAvailable);
                     }
+                    else if (btn.IsFlag)
+                    {
+                        btn.IsFlag = false;
+                        btn.Image = null;
+                        FlagsAvailable++;
+                        _flagsHandler.SetValue(FlagsAvailable);
+                    }
+                    else
+                        return;
                 }
             }
         }
