@@ -16,6 +16,7 @@ namespace MinesweeperWinFormsRefactored
         private ButtonGenerator _buttonGenerator;
         private AutoRevealEmpty _autoRevealEmpty;
         private TextBoxHandler _flagsHandler;
+        private TextBoxHandler _scoreHandler;
         private Timer _timer;
 
         /// <summary>
@@ -25,13 +26,15 @@ namespace MinesweeperWinFormsRefactored
         /// <param name="buttonGenerator">Generates the UI buttons representing the game board.</param>
         /// <param name="autoRevealEmpty">Handles automatic revealing of empty cells.</param>
         /// <param name="flagsHandler">Manages the display and count of remaining flags.</param>
+        /// <param name="scoreHandler">Manages the display and count of already successfully revealed cells.</param>
         /// <param name="timer">Handles the game timer.</param>
-        public GameStarter(GameLogic gameLogic, ButtonGenerator buttonGenerator, AutoRevealEmpty autoRevealEmpty, TextBoxHandler flagsHandler, Timer timer)
+        public GameStarter(GameLogic gameLogic, ButtonGenerator buttonGenerator, AutoRevealEmpty autoRevealEmpty, TextBoxHandler flagsHandler, TextBoxHandler scoreHandler, Timer timer)
         {
             _gameLogic = gameLogic;
             _buttonGenerator = buttonGenerator;
             _autoRevealEmpty = autoRevealEmpty;
             _flagsHandler = flagsHandler;
+            _scoreHandler = scoreHandler;
             _timer = timer;
         }
 
@@ -51,6 +54,7 @@ namespace MinesweeperWinFormsRefactored
             //reset helper classes for a new game
             _autoRevealEmpty.Reset();
             _gameLogic.ResetRevealedCellsCount();
+            _scoreHandler.ResetValue();
 
             //initialize and set up a new game board
             _gameLogic.InitializeBoardDimensions();

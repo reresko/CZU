@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\minesweeperwinformsrefactored\\buttongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00E68A32-87BE-4C89-AD54-BE6DE4282F6E}|MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored.csproj|solutionrelative:minesweeperwinformsrefactored\\buttongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,19 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ButtonGenerator.cs",
-              "DocumentMoniker": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
-              "RelativeDocumentMoniker": "MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
-              "ToolTip": "C:\\Adamko\\Programming\\CZU\\MinesweeperWinFormsRefactored\\MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
-              "RelativeToolTip": "MinesweeperWinFormsRefactored\\ButtonGenerator.cs",
-              "ViewState": "AQIAAI4AAAAAAAAAAAAgwKoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T12:34:44.095Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading.Tasks.Sources;
 
 namespace MinesweeperWinFormsRefactored
 {
@@ -46,6 +47,14 @@ namespace MinesweeperWinFormsRefactored
             }
             //if parsing fails, return 0 as the default value
             return 0;
+        }
+
+        /// <summary>
+        /// Resets the <see cref="TextBox"/> by printing 0
+        /// </summary>
+        public void ResetValue()
+        {
+            _textBox.Text = "0";
         }
     }
 }

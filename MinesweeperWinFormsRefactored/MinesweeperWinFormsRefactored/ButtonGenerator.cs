@@ -123,8 +123,8 @@ namespace MinesweeperWinFormsRefactored
                     btn.Text = minesCountCell.ToString();
                     btn.ForeColor = _cellColor.GetMineCountColor(minesCountCell);
                 }
-                //only if the cell is not already revealed
-                if (btn.CustomEnabled)
+                //only if the cell is not already revealed and is not mine
+                if (btn.CustomEnabled && minesCountCell != 10)
                 {
                     _gameLogic.IncrementRevealedCells();
                     int score = _gameLogic.RevealedCellsCount;

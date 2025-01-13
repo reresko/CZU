@@ -27,7 +27,7 @@ namespace MinesweeperWinFormsRefactored
             revealAllCells = new RevealAllCells(panelGameField, new CellColor(), gameLogic);
             autoRevealEmpty = new AutoRevealEmpty(gameLogic, panelGameField, new TextBoxHandler(txtScore), new CellColor());
             buttonGenerator = new ButtonGenerator(panelGameField, gameLogic, autoRevealEmpty, new TextBoxHandler(txtFlags), new TextBoxHandler(txtScore), new CellColor(), revealAllCells, timer);
-            gameStarter = new GameStarter(gameLogic, buttonGenerator, autoRevealEmpty, new TextBoxHandler(txtFlags), timer);
+            gameStarter = new GameStarter(gameLogic, buttonGenerator, autoRevealEmpty, new TextBoxHandler(txtFlags), new TextBoxHandler(txtScore), timer);
         }
 
         /// <summary>
