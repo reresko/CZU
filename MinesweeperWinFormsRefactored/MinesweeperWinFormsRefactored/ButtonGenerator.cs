@@ -151,7 +151,7 @@ namespace MinesweeperWinFormsRefactored
             if (e.Button == MouseButtons.Right)
             {
                 CustomButton btn = sender as CustomButton;
-                if (btn != null && btn.Enabled)
+                if (btn != null && btn.CustomEnabled)
                 {
                     int FlagsAvailable = _flagsHandler.GetValue();
 
