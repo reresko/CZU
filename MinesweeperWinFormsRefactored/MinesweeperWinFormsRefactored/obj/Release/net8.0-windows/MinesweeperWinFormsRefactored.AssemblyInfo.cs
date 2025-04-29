@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinesweeperWinFormsRefactored")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1bb30cf8f4ddaaafe5bc77b4c43fc8cef47e4e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba30bc8d8a0d40d1ad37ea3ed3032c142fc9654a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinesweeperWinFormsRefactored")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinesweeperWinFormsRefactored")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

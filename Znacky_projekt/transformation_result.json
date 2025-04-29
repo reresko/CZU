@@ -1,0 +1,70 @@
+
+{
+    "klinika": {
+      "nazev": "MediClinic Plus",
+      "adresa": {
+        "ulice": "Hlavní 123",
+        "mesto": "Praha",
+        "psc": "11000",
+        "stat": "Česká republika"
+      },
+      "kontakt": {
+        "telefon": "+420123456789",
+        "email": "info@mediclinicplus.cz",
+        "web": "https://www.mediclinicplus.cz"
+      },
+      "sluzby": [
+        
+          {
+            "nazev": "Preventivní prohlídka",
+            "popis": "Komplexní zdravotní kontrola pro dospělé.",
+            "cena": "1200.00",
+            "dobaTrvani": "30 minut",
+            "specializace": "praktický lékař"
+          },
+          {
+            "nazev": "Fyzioterapie",
+            "popis": "Individuální rehabilitační program na míru.",
+            "cena": "800.00",
+            "dobaTrvani": "45 minut",
+            "specializace": "fyzioterapeut"
+          }
+      ],
+      "lekari": [
+        
+          {
+            "jmeno": "Jan",
+            "prijmeni": "Novák",
+            "specializace": "praktický lékař",
+            "email": "jan.novak@mediclinicplus.cz",
+            "telefon": "+420111222333"
+          },
+          {
+            "jmeno": "Eva",
+            "prijmeni": "Svobodová",
+            "specializace": "fyzioterapeut",
+            "email": "eva.svobodova@mediclinicplus.cz",
+            "telefon": "+420444555666"
+          }
+      ],
+      "novinky": [
+        
+              {
+                "typ": "důležitá",
+                "titulek": "Nová ambulance",
+                "obsah": "Otevřeli jsme nové oddělení fyzioterapie. Objednávejte se online.",
+                "datum": "2025-05-01"
+              }
+            ,
+              {
+                "typ": "běžná",
+                "titulek": "Rozšířená ordinační doba",
+                "obsah": "Od června jsme tu pro vás i v sobotu dopoledne.",
+                "datum": "2025-06-01"
+              }
+            
+      ]
+    }
+  }
+      
+  

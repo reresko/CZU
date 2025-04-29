@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<smartphone>
+    <brand>XMLphone</brand>
+    <model_name>XSLT</model_name>
+    <specifications>
+        <display_size unit="inches">5</display_size>
+        <battery>
+            <capacity>1500</capacity>
+        </battery>
+        <cpu>
+            some cpu name
+        </cpu>
+    </specifications>
+    <prices>
+        <price type="normal">
+            <value>10000</value>
+            <currency>CZK</currency>
+        </price>
+        <price type="normal">
+            <value>100</value>
+            <currency>EUR</currency>
+        </price>
+        <price type="normal">
+            <value>200</value>
+            <currency>USD</currency>
+        </price>
+        <price type="discounted">
+            <value>5000</value>
+            <currency>CZK</currency>
+            <discount>20%</discount>
+        </price>
+        <price type="discounted">
+            <value>6000</value>
+            <currency>CZK</currency>
+            <discount>10%</discount>
+        </price>
+        <price type="discounted">
+            <value>9000</value>
+            <currency>CZK</currency>
+            <discount>5%</discount>
+        </price>
+        <price type="discounted">
+            <value>3000</value>
+            <currency>CZK</currency>
+            <discount>50%</discount>
+        </price>
+    </prices>
+</smartphone>

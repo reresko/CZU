@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="klinika">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nazev" type="xs:string"/>
+                <xs:element name="adresa">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ulice" type="xs:string"/>
+                            <xs:element name="mesto" type="xs:string"/>
+                            <xs:element name="psc" type="xs:string"/>
+                            <xs:element name="stat" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="kontakt">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="telefon" type="telefonTyp"/>
+                            <xs:element name="email" type="emailTyp"/>
+                            <xs:element name="web" type="xs:anyURI"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sluzby">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sluzba" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nazevSluzby" type="xs:string"/>
+                                        <xs:element name="popisSluzby" type="xs:string"/>
+                                        <xs:element name="cena" type="cenaTyp"/>
+                                        <xs:element name="dobaTrvani" type="xs:string"/>
+                                        <xs:element name="specializace" type="specializaceTyp"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="kod" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="lekari">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="lekar" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="jmeno" type="xs:string"/>
+                                        <xs:element name="prijmeni" type="xs:string"/>
+                                        <xs:element name="specializace" type="specializaceTyp"/>
+                                        <xs:element name="email" type="emailTyp"/>
+                                        <xs:element name="telefon" type="telefonTyp"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="oteviraciDoba">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="den" maxOccurs="7">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nazevDne" type="denTyp"/>
+                                        <xs:element name="od" type="xs:time"/>
+                                        <xs:element name="do" type="xs:time"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="novinky">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="novinka" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titulek" type="xs:string"/>
+                                        <xs:element name="obsah" type="xs:string"/>
+                                        <xs:element name="datum" type="xs:date"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="idKliniky" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- restrikce: telefonni cislo v ceskem formatu -->
+    <xs:simpleType name="telefonTyp">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\+420[0-9]{9}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- restrikce: format emailu -->
+    <xs:simpleType name="emailTyp">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[^@]+@[^@]+\.[a-z]{2,6}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- restrikce: povolene specializace -->
+    <xs:simpleType name="specializaceTyp">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="praktický lékař"/>
+            <xs:enumeration value="gynekolog"/>
+            <xs:enumeration value="fyzioterapeut"/>
+            <xs:enumeration value="pediatr"/>
+            <xs:enumeration value="dermatolog"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- restrikce: cena musi byt kladna -->
+    <xs:simpleType name="cenaTyp">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0.01"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- restrikce: nic jineho, nez dny v tydnu -->
+    <xs:simpleType name="denTyp">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Pondělí"/>
+            <xs:enumeration value="Úterý"/>
+            <xs:enumeration value="Středa"/>
+            <xs:enumeration value="Čtvrtek"/>
+            <xs:enumeration value="Pátek"/>
+            <xs:enumeration value="Sobota"/>
+            <xs:enumeration value="Neděle"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

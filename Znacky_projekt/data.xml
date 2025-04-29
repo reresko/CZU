@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<klinika xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="schema.xsd"
+         idKliniky="001">
+
+    <nazev>MediClinic Plus</nazev>
+
+    <adresa>
+        <ulice>Hlavní 123</ulice>
+        <mesto>Praha</mesto>
+        <psc>11000</psc>
+        <stat>Česká republika</stat>
+    </adresa>
+
+    <kontakt>
+        <telefon>+420123456789</telefon>
+        <email>info@mediclinicplus.cz</email>
+        <web>https://www.mediclinicplus.cz</web>
+    </kontakt>
+
+    <sluzby>
+        <sluzba kod="S001">
+            <nazevSluzby>Preventivní prohlídka</nazevSluzby>
+            <popisSluzby>Komplexní zdravotní kontrola pro dospělé.</popisSluzby>
+            <cena>1200.00</cena>
+            <dobaTrvani>30 minut</dobaTrvani>
+            <specializace>praktický lékař</specializace>
+        </sluzba>
+        <sluzba kod="S002">
+            <nazevSluzby>Fyzioterapie</nazevSluzby>
+            <popisSluzby>Individuální rehabilitační program na míru.</popisSluzby>
+            <cena>800.00</cena>
+            <dobaTrvani>45 minut</dobaTrvani>
+            <specializace>fyzioterapeut</specializace>
+        </sluzba>
+    </sluzby>
+
+    <lekari>
+        <lekar id="L001">
+            <jmeno>Jan</jmeno>
+            <prijmeni>Novák</prijmeni>
+            <specializace>praktický lékař</specializace>
+            <email>jan.novak@mediclinicplus.cz</email>
+            <telefon>+420111222333</telefon>
+        </lekar>
+        <lekar id="L002">
+            <jmeno>Eva</jmeno>
+            <prijmeni>Svobodová</prijmeni>
+            <specializace>fyzioterapeut</specializace>
+            <email>eva.svobodova@mediclinicplus.cz</email>
+            <telefon>+420444555666</telefon>
+        </lekar>
+    </lekari>
+
+    <oteviraciDoba>
+        <den>
+            <nazevDne>Pondělí</nazevDne>
+            <od>08:00:00</od>
+            <do>18:00:00</do>
+        </den>
+        <den>
+            <nazevDne>Úterý</nazevDne>
+            <od>08:00:00</od>
+            <do>18:00:00</do>
+        </den>
+        <den>
+            <nazevDne>Středa</nazevDne>
+            <od>08:00:00</od>
+            <do>16:00:00</do>
+        </den>
+        <den>
+            <nazevDne>Čtvrtek</nazevDne>
+            <od>08:00:00</od>
+            <do>18:00:00</do>
+        </den>
+        <den>
+            <nazevDne>Pátek</nazevDne>
+            <od>08:00:00</od>
+            <do>14:00:00</do>
+        </den>
+        <den>
+            <nazevDne>Sobota</nazevDne>
+            <od>09:00:00</od>
+            <do>12:00:00</do>
+        </den>
+        <den>
+            <nazevDne>Neděle</nazevDne>
+            <od>00:00:00</od>
+            <do>00:00:00</do>
+        </den>
+    </oteviraciDoba>
+
+    <novinky>
+        <novinka id="N001">
+            <titulek>Nová ambulance</titulek>
+            <obsah>Otevřeli jsme nové oddělení fyzioterapie. Objednávejte se online.</obsah>
+            <datum>2025-05-01</datum>
+        </novinka>
+        <novinka id="N002">
+            <titulek>Rozšířená ordinační doba</titulek>
+            <obsah>Od června jsme tu pro vás i v sobotu dopoledne.</obsah>
+            <datum>2025-06-01</datum>
+        </novinka>
+    </novinky>
+
+</klinika>
